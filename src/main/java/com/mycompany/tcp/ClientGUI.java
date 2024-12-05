@@ -177,8 +177,6 @@ public class ClientGUI extends JFrame {
                         }else if(llave==1)  {
                             crypto=new CryptoUtils();
                             String mensaje=crypto.decrypt(inputLine,"2");
-                            Usuario user=new Usuario();
-                            user.setMensaje(mensaje);
                             colas.add(mensaje);
                             
                         }
